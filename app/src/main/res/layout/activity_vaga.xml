@@ -67,6 +67,15 @@
             android:layout_marginTop="5dp"
             android:background="@drawable/text_box"/>
 
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID vaga selecionado: nenhum"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,7 +84,7 @@
             >
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/bt_cad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -85,7 +94,7 @@
                 app:cornerRadius="15dp"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/bt_upd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -95,7 +104,7 @@
                 app:cornerRadius="15dp"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/bt_del"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -109,7 +118,9 @@
         <ListView
             android:id="@+id/listViewListar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F8F8F8" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
